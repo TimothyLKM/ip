@@ -1,3 +1,4 @@
+package timl.task;
 
 public abstract class Task {
     protected static final String MARKED = "[X]";

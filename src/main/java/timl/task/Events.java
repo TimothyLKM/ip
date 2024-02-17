@@ -1,3 +1,5 @@
+package timl.task;
+
 public class Events extends Task {
     protected static final String ASSIGNED_SYMBOL = "[E]";
     protected String startDate;
@@ -10,6 +12,6 @@ public class Events extends Task {
     }
     @Override
     public String getStatus(){
-        return ASSIGNED_SYMBOL + super.getStatus() + " (from: " + startDate + " to" + endDate + ")";
+        return ASSIGNED_SYMBOL + super.getStatus() + " (from: " + startDate + " to " + endDate + ")";
     }
 }

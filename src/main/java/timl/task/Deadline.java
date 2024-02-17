@@ -1,3 +1,5 @@
+package timl.task;
+
 public class Deadline extends Task {
     protected static final String ASSIGNED_SYMBOL = "[D]";
     protected String by;

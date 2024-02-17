@@ -1,3 +1,7 @@
+package timl.task;
+
+import timl.task.Task;
+
 public class Todo extends Task {
     protected static final String ASSIGNED_SYMBOL = "[T]";
 
